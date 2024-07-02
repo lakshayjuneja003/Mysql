@@ -20,4 +20,7 @@ drop table employee;
 insert into employee values (1 , "lakshay " , "Juneja" , 18 , 200000, "Haryana");
 
 show tables;
+-- select is used for selecting the values based on some conditions from a particular table
 select * from employee;
+-- where is ued for filtering the values 
+select FirstName LastName From employee where salery > 10000;
