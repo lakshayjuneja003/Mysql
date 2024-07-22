@@ -17,3 +17,6 @@ ddl- data defination language
 
 update employee SET LastName = "Kumar " 
 where EID = 1;
+-- delete statement
+delete from employee
+where EID = 4;
